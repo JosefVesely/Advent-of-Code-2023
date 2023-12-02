@@ -1,9 +1,8 @@
 # --- Day 2: Cube Conundrum ---
-import pprint
 
 # Return game number if the game is possible
 def solve_game(line: str) -> int:
-    # Parse input
+    # Parse the input
     game_number = int(line.split(" ")[1][:-1])
 
     sets = []
@@ -22,7 +21,7 @@ def solve_game(line: str) -> int:
 
     sets.append(0)
 
-    # Solve game
+    # Solve the game
     red = BAG_RED = 12
     green = BAG_GREEN = 13
     blue = BAG_BLUE = 14
