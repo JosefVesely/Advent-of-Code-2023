@@ -45,4 +45,4 @@ with open("input.txt", "r") as input:
         line = line.strip()
         sum += solve_game(line)
 
-    print(sum)
+    print(f"{sum=}")

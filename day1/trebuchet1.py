@@ -26,4 +26,4 @@ with open("input.txt", "r") as input:
         line = line.strip()
         sum += get_calibration_number(line)
 
-    print(sum)
+    print(f"{sum=}")

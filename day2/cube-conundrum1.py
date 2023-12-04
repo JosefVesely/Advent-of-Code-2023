@@ -1,6 +1,5 @@
 # --- Day 2: Cube Conundrum ---
 
-# Return game number if the game is possible
 def solve_game(line: str) -> int:
     # Parse the input
     game_number = int(line.split(" ")[1][:-1])
@@ -54,4 +53,4 @@ with open("input.txt", "r") as input:
         line = line.strip()
         sum += solve_game(line)
 
-    print(sum)
+    print(f"{sum=}")
